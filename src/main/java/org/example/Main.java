@@ -6,9 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-    Personel accountingPersonel = new Personel("Begüm", "Pala");
-
-        accountingPersonel.enterWorkDays(26);
+    Personel accountingPersonel = new Personel("Begüm", "Pala",26);
         float salary = accountingPersonel.calculateSalary(100);
         System.out.println(accountingPersonel + " Salary is : " + salary + "$");
 
