@@ -5,16 +5,14 @@ public class Personel {
     String surname;
     int workday;
 
-    Personel (String name, String surname){
+    Personel (String name, String surname,int workday){
         this.name=name;
         this.surname=surname;
+        this.workday=workday;
 
     }
     public String toString() {
         return name + " " + surname;
-    }
-    public void enterWorkDays(int numberOfWorkDays) {
-        this.workday = numberOfWorkDays;
     }
 
     public Float calculateSalary(float dailySalary){
